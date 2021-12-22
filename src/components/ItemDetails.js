@@ -17,6 +17,7 @@ const ItemDetails = () => {
   } = countries;
   return (
     <div className="detail-info" key={id}>
+      <h1>{name}</h1>
       <table className="table">
         <thead>
           <tr className="row">
