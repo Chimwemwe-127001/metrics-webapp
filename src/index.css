@@ -14,16 +14,24 @@ body {
 
 .country {
   flex-direction: column;
-  flex-basis: 230px;
+  flex-basis: 50%;
   flex-grow: 1;
   justify-content: space-between;
 }
 
-.country:nth-child(even) {
+.country:nth-child(4n) {
   background: #dc4d82;
 }
 
-.country:nth-child(odd) {
+.country:nth-child(4n+1) {
+  background: #dc4d82;
+}
+
+.country:nth-child(4n+3) {
+  background: #d04778;
+}
+
+.country:nth-child(4n+2) {
   background: #d04778;
 }
 
@@ -69,22 +77,29 @@ body {
   margin: 0 auto;
 }
 
-.table {
-  width: 99%;
-  margin: 0 auto;
-  table-layout: auto;
-  border-collapse: collapse;
-  margin-bottom: 2rem;
+.detail-info h1 {
+  text-align: end;
+  font-size: 2.4rem;
+  color: white;
+  padding-left: 5px;
 }
 
-.column {
-  border: 1px solid #ddd;
-  text-align: left;
-  padding: 10px;
-  padding-bottom: 1.8rem;
+.detail-info h1 span {
+  display: block;
+  font-size: 0.8rem;
+  padding-left: 5px;
 }
 
-.head {
-  font-size: 1.3rem;
-  padding: 10px;
+.ul {
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+
+.li:nth-child(even) {
+  background: #d04778;
 }

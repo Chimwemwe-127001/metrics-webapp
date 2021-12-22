@@ -2,24 +2,24 @@
 
 exports[`testing the app testing ItemDetails UI 1`] = `
 "<div class=\\"detail-info\\">
-  <h1></h1>
-  <table class=\\"table\\">
-    <thead>
-      <tr class=\\"row\\">
-        <th class=\\"column head\\">Confirmed</th>
-        <th class=\\"column head\\">Deaths</th>
-        <th class=\\"column head\\">Open</th>
-        <th class=\\"column head\\">Recovered</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class=\\"row\\">
-        <td class=\\"column\\"> cases</td>
-        <td class=\\"column\\"> cases</td>
-        <td class=\\"column\\"> cases</td>
-        <td class=\\"column\\"> cases</td>
-      </tr>
-    </tbody>
-  </table>
+  <h1><span>NaN cases</span></h1>
+  <ul class=\\"ul\\">
+    <li class=\\"li d-flex\\">
+      <p>Total cases confirmed</p>
+      <p></p>
+    </li>
+    <li class=\\"li d-flex\\">
+      <p>Total Deaths confirmed</p>
+      <p></p>
+    </li>
+    <li class=\\"li d-flex\\">
+      <p>Total cases open</p>
+      <p></p>
+    </li>
+    <li class=\\"li d-flex\\">
+      <p>Total recovered</p>
+      <p></p>
+    </li>
+  </ul>
 </div>"
 `;

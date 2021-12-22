@@ -1,4 +1,3 @@
-/* eslint-disable no-nested-ternary */
 import { useSelector } from 'react-redux';
 import { CircularProgress } from 'react-cssfx-loading';
 import { Link } from 'react-router-dom';

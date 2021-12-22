@@ -1,5 +1,3 @@
-/* eslint-disable dot-notation */
-/* eslint-disable quotes */
 import React from 'react';
 import { useParams } from 'react-router';
 import { useSelector } from 'react-redux';
@@ -7,7 +5,7 @@ import { useSelector } from 'react-redux';
 const ItemDetails = () => {
   const countriesList = useSelector((state) => state.covidReducer.oneCountry);
   const { name } = useParams();
-  const countries = countriesList ? countriesList.find((country) => country.name === name) : "Still fetching";
+  const countries = countriesList ? countriesList.find((country) => country.name === name) : 'Still fetching';
   const {
     confirmedCases,
     recovered,
@@ -17,41 +15,40 @@ const ItemDetails = () => {
   } = countries;
   return (
     <div className="detail-info" key={id}>
-      <h1>{name}</h1>
-      <table className="table">
-        <thead>
-          <tr className="row">
-            <th className="column head">Confirmed</th>
-            <th className="column head">Deaths</th>
-            <th className="column head">Open</th>
-            <th className="column head">Recovered</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr className="row">
-            <td className="column">
-              {confirmedCases}
-              {' '}
-              cases
-            </td>
-            <td className="column">
-              {allDeaths}
-              {' '}
-              cases
-            </td>
-            <td className="column">
-              {openCases}
-              {' '}
-              cases
-            </td>
-            <td className="column">
-              {recovered}
-              {' '}
-              cases
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <h1>
+        {name}
+        <span>
+          {confirmedCases + openCases}
+          {' '}
+          cases
+        </span>
+      </h1>
+      <ul className="ul">
+        <li className="li d-flex">
+          <p>Total cases confirmed</p>
+          <p>
+            {confirmedCases}
+          </p>
+        </li>
+        <li className="li d-flex">
+          <p>Total Deaths confirmed</p>
+          <p>
+            {allDeaths}
+          </p>
+        </li>
+        <li className="li d-flex">
+          <p>Total cases open</p>
+          <p>
+            {openCases}
+          </p>
+        </li>
+        <li className="li d-flex">
+          <p>Total recovered</p>
+          <p>
+            {recovered}
+          </p>
+        </li>
+      </ul>
     </div>
   );
 };
