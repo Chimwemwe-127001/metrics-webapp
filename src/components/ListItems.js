@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Input } from 'semantic-ui-react';
 import { useState } from 'react';
 
-function ListItems() {
+const ListItems = () => {
   const countries = useSelector((state) => state.covidReducer.oneCountry);
   const [filteredResults, setFilteredResults] = useState([]);
   const [searchInput, setSearchInput] = useState('');
@@ -70,6 +70,6 @@ function ListItems() {
     </div>
 
   );
-}
+};
 
 export default ListItems;
