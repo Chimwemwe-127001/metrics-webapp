@@ -3,6 +3,9 @@
   - one page with a list of items that could be filtered by some parameters.
   - one page for the item details.
 
+## Project Description
+> Click [here](https://loom.com/share/eb9f9d4ce19942628b7c2aa2a74105c2) to watch a video that gives a brief description of the project
+
 ## Live Demo
 > Click [here](https://covid-metrics-webapp.netlify.app/) to see the live demo
 
