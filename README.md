@@ -1,11 +1,15 @@
-# Bookstore
-- The Bookstore is a website similar to the "Awesome Books" website built in the previous module. It allows a user to:
-  - Display a list of books.
-  - Add a book.
-  - Remove a selected book.
+# COVID METRICS WEBAPP
+- In this repo I was to select an API that provides numeric data about a topic that I would like and then build the webapp around it. The webapp will have several pages:
+  - one page with a list of items that could be filtered by some parameters.
+  - one page for the item details.
 
 ## Live Demo
-> Click [here](https://bookstore-chimwemwe-127001.netlify.app/) to see the live demo
+> Click [here](https://covid-metrics-webapp.netlify.app/) to see the live demo
+
+
+ItemsList page                              |  ItemDetails page
+:------------------------------------------:|:------------------------------------------:
+![](./src/assets/img/covid-itemslist.png)   |  ![](./src/assets/img/covid-itemdetails.png) 
 
 ### Built With
 
@@ -22,7 +26,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/Chimwemwe-127001/bookstore.git
+   git clone https://github.com/Chimwemwe-127001/metrics-webapp.git
    ```
 2. Install NPM packages
    ```sh
@@ -44,6 +48,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgments
+Microverse
+
+React and React Router documentation
+
+Hats off to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design inspiration.
+
 
 ## Show your support
 
