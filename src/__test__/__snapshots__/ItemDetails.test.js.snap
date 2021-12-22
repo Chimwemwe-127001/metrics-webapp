@@ -1,30 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testing the app testing Home UI 1`] = `
-"<div class=\\"detail-info\\">
-  <table class=\\"table\\">
-    <thead>
-      <tr class=\\"row\\">
-        <th class=\\"column head\\">Confirmed</th>
-        <th class=\\"column head\\">Deaths</th>
-        <th class=\\"column head\\">Open</th>
-        <th class=\\"column head\\">Recovered</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class=\\"row\\">
-        <td class=\\"column\\"> cases</td>
-        <td class=\\"column\\"> cases</td>
-        <td class=\\"column\\"> cases</td>
-        <td class=\\"column\\"> cases</td>
-      </tr>
-    </tbody>
-  </table>
-</div>"
-`;
-
 exports[`testing the app testing ItemDetails UI 1`] = `
 "<div class=\\"detail-info\\">
+  <h1></h1>
   <table class=\\"table\\">
     <thead>
       <tr class=\\"row\\">
