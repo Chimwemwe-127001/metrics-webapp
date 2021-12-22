@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the app testing ItemDetails UI 1`] = `
+"<div class=\\"detail-info\\">
+  <h1><span>NaN cases</span></h1>
+  <ul class=\\"ul\\">
+    <li class=\\"li d-flex\\">
+      <p>Total cases confirmed</p>
+      <p></p>
+    </li>
+    <li class=\\"li d-flex\\">
+      <p>Total Deaths confirmed</p>
+      <p></p>
+    </li>
+    <li class=\\"li d-flex\\">
+      <p>Total cases open</p>
+      <p></p>
+    </li>
+    <li class=\\"li d-flex\\">
+      <p>Total recovered</p>
+      <p></p>
+    </li>
+  </ul>
+</div>"
+`;

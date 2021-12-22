@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f45692;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.list-countries {
+  flex-wrap: wrap;
+}
+
+.country {
+  flex-direction: column;
+  flex-basis: 50%;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.country:nth-child(4n) {
+  background: #dc4d82;
+}
+
+.country:nth-child(4n+1) {
+  background: #dc4d82;
+}
+
+.country:nth-child(4n+3) {
+  background: #d04778;
+}
+
+.country:nth-child(4n+2) {
+  background: #d04778;
+}
+
+.country a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  padding-left: 13px;
+}
+
+.country a h4 {
+  margin: 0;
+  padding-block: 40px;
+}
+
+.country .casesConfirmedVal {
+  text-align: end;
+  padding-right: 13px;
+  margin: 0;
+  color: white;
+}
+
+.country .casesConfirmed {
+  text-align: end;
+  padding-right: 13px;
+  margin: 0 0 32px 0;
+  color: white;
+}
+
+.search {
+  text-align: center;
+  padding: 10px;
+}
+
+.list-container h2 {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+.detail-info {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.detail-info h1 {
+  text-align: end;
+  font-size: 2.4rem;
+  color: white;
+  padding-left: 5px;
+}
+
+.detail-info h1 span {
+  display: block;
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+
+.ul {
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  justify-content: space-between;
+  padding: 0 5px 0 5px;
+}
+
+.li:nth-child(even) {
+  background: #d04778;
+}

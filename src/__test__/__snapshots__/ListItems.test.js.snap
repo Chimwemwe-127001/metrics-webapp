@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the app testing ListItems UI 1`] = `
+"<div class=\\"list-container\\">
+  <h2>Search by Country name</h2>
+  <div class=\\"ui icon input search\\"><input placeholder=\\"Search...\\" type=\\"text\\"><i aria-hidden=\\"true\\" class=\\"search icon\\"></i></div>
+  <div class=\\"list-countries d-flex\\">
+    <div class=\\"spinLoad\\"><svg crossorigin=\\"anonymous\\" viewBox=\\"25 25 50 50\\" style=\\"--width: 20%; --height: 3em; --color: #fff; --duration: 2s;\\" class=\\"cssfx-circular-progress-svg BarWave\\">
+        <circle class=\\"cssfx-circular-progress-circle\\" cx=\\"50\\" cy=\\"50\\" r=\\"20\\"></circle>
+      </svg></div>
+  </div>
+</div>"
+`;
