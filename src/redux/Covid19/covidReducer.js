@@ -9,7 +9,7 @@ let todaysDate = new Date();
 const day = String(todaysDate.getDate()).padStart(2, '0');
 const month = String(todaysDate.getMonth() + 1).padStart(2, '0');
 const year = todaysDate.getFullYear();
-todaysDate = `${year}-${month}-${day - 1}`;
+todaysDate = `${year}-${month}-${day}`;
 
 export const fetchCountriesFromApi = () => async (dispatch) => {
   const countries = await fetch(`https://api.covid19tracking.narrativa.com/api/${todaysDate}`);
